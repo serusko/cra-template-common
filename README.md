@@ -19,11 +19,11 @@ Common temaplate with some small improvements:
 - [devDependecies cannot be splitted](https://github.com/facebook/create-react-app/issues/8082) on template level, feel free to do it on your own 
 
 ```sh
-npx create-react-app my-app --template typescript
+npx create-react-app my-app2 --template @serusko/common
 
 # or
 
-yarn create react-app my-app --template typescript
+yarn create react-app my-app --template @serusko/common
 ```
 
 
