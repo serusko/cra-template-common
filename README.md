@@ -8,6 +8,7 @@ Common temaplate including some small improvements:
 - stylelint
 - VSCode / Codium workspace
 - commitlint
+- some handy VSCode plugins
 
 ## Recommendations / Before you start
 

@@ -1,5 +1,6 @@
 {
   "name": "@serusko/cra-template-common",
+  "repository": "github:serusko:cra-template-common",
   "version": "1.0.3",
   "keywords": [
     "react",
