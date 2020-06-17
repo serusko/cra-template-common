@@ -1,4 +1,4 @@
-# @react-library/cra-template
+# cra-template-common
 
 Common temaplate with some small improvements:
 
