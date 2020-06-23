@@ -1,10 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import * as serviceWorker from './serviceWorker';
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import * as serviceWorker from "./serviceWorker";
 
 const root = document.getElementById("root");
 
@@ -12,10 +12,9 @@ root && ReactDOM.render(<App />, root);
 
 // Enable hot-reload
 
-// @ts-ignore
 if (module.hot) {
-  // @ts-ignore
   module.hot.accept("./App", () => {
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
     const NextApp = require("./App").default;
     root && ReactDOM.render(NextApp, root);
   });
