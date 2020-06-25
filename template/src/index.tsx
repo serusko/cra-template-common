@@ -16,7 +16,7 @@ if (module.hot) {
   module.hot.accept("./App", () => {
     // eslint-disable-next-line @typescript-eslint/no-var-requires
     const NextApp = require("./App").default;
-    root && ReactDOM.render(NextApp, root);
+    root && ReactDOM.render(<NextApp />, root);
   });
 }
 
