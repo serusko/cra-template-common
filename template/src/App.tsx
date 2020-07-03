@@ -1,9 +1,9 @@
-import React, { StrictMode } from "react";
+import React, { FC, StrictMode } from "react";
 
 import "./App.css";
 import logo from "./logo.svg";
 
-function App() {
+const App: FC = () => {
   return (
     <StrictMode>
       <div className="App">
@@ -24,6 +24,6 @@ function App() {
       </div>
     </StrictMode>
   );
-}
+};
 
 export default App;
