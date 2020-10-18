@@ -7,7 +7,6 @@
     },
     "eslint.alwaysShowStatus": true,
     "eslint.packageManager": "yarn",
-    "eslint.enable": true,
     // style
     "stylelint.enable": true,
     // Editor goodies
