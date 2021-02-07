@@ -18,7 +18,6 @@ Common temaplate including some small improvements:
 
 ## Known issues
 - [devDependecies cannot be splitted](https://github.com/facebook/create-react-app/issues/8082) on template level, feel free to do it on your own 
-- `@typescript-eslint/eslint-plugin` must be `3.4.0` and more and you need to move it to dev dependency bcs of console warning 
 
 
 ## Usage 
@@ -30,6 +29,8 @@ npx create-react-app my-app --template @serusko/common
 
 yarn create react-app my-app --template @serusko/common
 ```
+### Optional post-steps
+ move all `dependencies` except (`react`, `react-dom`, `web-vitals`) to `devDependencies`
 
 
 
