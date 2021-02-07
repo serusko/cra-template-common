@@ -38,7 +38,7 @@ module.exports = {
     ecmaVersion: 2020, // Allows for the parsing of modern ECMAScript features
     sourceType: "module", // Allows for the use of imports
   },
-  plugins: ["import", "jsx-a11y", "eslint-plugin-sort-keys-fix"],
+  plugins: ["import", "jsx-a11y", "sort-keys-fix"],
   rules: {
     "jsx-a11y/click-events-have-key-events": prodErrorOthersWarn,
     "jsx-a11y/no-noninteractive-element-interactions": prodErrorOthersWarn,
